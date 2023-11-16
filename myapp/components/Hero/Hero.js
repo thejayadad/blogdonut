@@ -28,7 +28,7 @@ const HeroSection = () => {
         initial={{ opacity: 0 }}
         animate={controls}
       >
-      <div className='mt-24 relative w-full py-12 px-12 bg-pink-900'>
+      <div className='mt-24 relative w-full py-12 px-12'>
       <div className='relative z-10 text-center py-24 md:py-48'>
         <h1 
         className='text-white text-center text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold mb-12'
@@ -37,11 +37,15 @@ const HeroSection = () => {
         className='inline-block bg-yellow-800 text-white uppercase text-sm tracking-widest font-heading px-8 py-4'
         href={'/'}>Read More</Link>
       </div>
+      <div className='relative z-10 mx-auto max-w-4xl flex justify-between uppercase text-white font-heading tracking-widest text-sm'>
+        <Link className='border-b border-white' href={'/about'}>Find Out More</Link>
+        <Link className='border-b border-white' href={'/contact'}>Get In Touch</Link>
+      </div>
       </div>
       </motion.div>
 
       <div
-        className="absolute inset-0 bg-black bg-opacity-40"
+        className="absolute inset-0 bg-black bg-opacity-30"
         initial={{ opacity: 0 }}
         animate={controls}
       ></div>
