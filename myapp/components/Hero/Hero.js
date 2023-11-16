@@ -35,7 +35,7 @@ const HeroSection = () => {
         >Donut World For The True Lovers</h1>
         <Link 
         className='inline-block bg-yellow-800 text-white uppercase text-sm tracking-widest font-heading px-8 py-4'
-        href={'/'}>Read More</Link>
+        href={'/blog'}>Read More</Link>
       </div>
       <div className='relative z-10 mx-auto max-w-4xl flex justify-between uppercase text-white font-heading tracking-widest text-sm'>
         <Link className='border-b border-white' href={'/about'}>Find Out More</Link>
